@@ -3,7 +3,9 @@ import random
 
 def set_wallpaper(image_path):
     try:
+        
         # Run the feh command to set the wallpaper
+        
         os.system(f"wal -i {image_path}")
         print("Wallpaper set successfully!")
     except Exception as e:
