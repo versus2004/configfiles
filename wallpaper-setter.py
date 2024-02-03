@@ -19,6 +19,7 @@ if __name__ == "__main__":
     image_files = [f for f in os.listdir(wallpaper_directory) if f.lower().endswith((".jpg", ".jpeg"))]
 
     if image_files:
+        
         # Select a random image file from the list
         random_image = random.choice(image_files)
         image_path = os.path.join(wallpaper_directory, random_image)
