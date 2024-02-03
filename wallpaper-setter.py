@@ -12,7 +12,7 @@ def set_wallpaper(image_path):
         print(f"Error setting wallpaper: {e}")
 
 if __name__ == "__main__":
-    # Replace this with the path to the directory containing images
+
     wallpaper_directory = "/home/versus/Downloads/Walls/new"
 
     # Get a list of all files with jpg or jpeg extension
